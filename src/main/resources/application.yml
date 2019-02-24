@@ -1,0 +1,18 @@
+server:
+  port: 8082
+  
+#---
+#spring:
+#  profiles: test
+#server:
+#  port: 8882
+#---
+#spring:
+#  profiles: prod
+#server:
+#  port: 8883
+    
+#自定义参数
+book.name: SpringCloudAction
+book.author: xushuanglu
+book.desc: ${book.author} is writing 《${book.name}》
